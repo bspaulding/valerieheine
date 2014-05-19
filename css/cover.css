@@ -161,14 +161,12 @@ body {
     float: right;
   }
   .mastfoot {
-    position: fixed;
-    bottom: 0;
 		width: 100%;
+		display: block;
+		clear: both;
   }
 	.mastfoot .icons {
-		position: absolute;
-		right: 30px;
-		bottom: 6px;
+		float: right;
 	}
 	.mastfoot p { text-align: left; }
 }
