@@ -1,0 +1,6 @@
+<ul class="nav masthead-nav icons {{include.class}}">
+{% for link in site.data.social %}
+	<li class="just-vector {{link.name}}"><a href="{{link.url}}">{{link.icon}}</a></li>
+{% endfor %}
+</ul>
+

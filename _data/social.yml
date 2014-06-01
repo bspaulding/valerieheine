@@ -1,0 +1,12 @@
+- name: linkedin
+  icon: l
+  url: 'http://www.linkedin.com'
+- name: twitter
+  icon: t
+  url: 'http://www.twitter.com'
+- name: facebook
+  icon: F
+  url: '#'
+- name: google
+  icon: G
+  url: '#'
