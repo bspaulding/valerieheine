@@ -1,6 +1,7 @@
 # Site settings
 title: Valerie Heine
 email: valerie.e.heine@gmail.com
+baseurl: 'http://bspaulding.github.io/valerieheine'
 
 # Build settings
 markdown: kramdown
