@@ -10,3 +10,6 @@
 - name: google
   icon: G
   url: '#'
+- name: email
+  icon: '@'
+  url: 'mailto:valerie.e.heine@gmail.com?subject=Inquiry (via valerieheine.com)'
