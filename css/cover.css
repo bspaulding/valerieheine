@@ -101,18 +101,24 @@ body {
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
   color: #fff;
-  border-bottom-color: #fff;
+}
+.masthead-nav.icons > li > a {
+	border-bottom: none;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+	border-bottom: none;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
 }
 .masthead-nav > li.just-vector {
 	font-size: 24px;
